@@ -1,0 +1,191 @@
+css
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ec5a00;
+  color: rgb(0, 0, 0);
+}
+
+.logo img {
+  width: 100px; /* Adjust logo size */
+  height: auto;
+}
+
+.search input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #5edcde;
+  width: 200px; /* Adjust search input width */
+}
+
+.profile {
+  font-size: 24px;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 20px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.categories > div {
+  text-align: center;
+}
+
+.categories i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.categories p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-care {
+  text-align: center;
+}
+
+.customer-care p {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  margin-left: 10px;
+  color: #333;
+  font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Recommended Movies Section Styles */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Movie Section Styles */
+.movie-section {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to start (left) */
+    align-items: center;
+    margin: 50px 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.first-movie,
+.other-movies {
+    display: flex;
+    flex-direction: row; /* Display horizontally */
+    align-items: center;
+}
+
+.movie-card {
+    text-align: center;
+    background-color: #000002fb;
+    box-shadow: 0 0 10px rgb(235, 12, 0);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+h2 {
+    margin: 10px 0;
+    color: #f0efef;
+}
+h1 {
+  margin: 10px 0;
+  color: #070606;
+}
+
+p {
+    color: #f5f3f3;
+}
+
+.book-now {
+    background-color: #29aed3;
+    color: #1309ab;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.book-now:hover {
+    background-color: #e80000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.live-events-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px 0; /* Adjusted top and bottom margins */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.first-live-event,
+.other-live-events {
+    display: flex;
+    flex-direction: row; /* Display horizontally */
+    align-items: center;
+}
+
+.live-event-card {
+    text-align: center;
+    background-color: #1c404550;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+}
+
+
+.movie-card img {
+  width: 100%; /* Set image width to 100% */
+  height: 300px; /* Set a fixed height for uniformity */
+  object-fit: contain; /* Ensure images cover the space */
+  border-radius: 8px; /* Add rounded corners */
+}

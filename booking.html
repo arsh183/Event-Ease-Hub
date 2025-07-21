@@ -1,0 +1,66 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+
+    <!-- Add your styles for the booking page here -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0a76b6;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .booking-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Booking Page</h1>
+</header>
+
+<div class="booking-container">
+    <h2>Select Your Showtime, Venue, and Price</h2>
+    <form id="bookingForm">
+        <label for="showtime">Select Showtime:</label>
+        <select id="showtime" name="showtime">
+            <option value="7:00 PM">7:00 PM</option>
+            <option value="9:30 PM">9:30 PM</option>
+            <!-- Add more showtime options as needed -->
+        </select>
+
+        <label for="venue">Select Venue:</label>
+        <select id="venue" name="venue">
+            <option value="Main Hall">Main Hall</option>
+            <option value="VIP Lounge">VIP Lounge</option>
+            <!-- Add more venue options as needed -->
+        </select>
+
+        <button type="button" onclick="confirmBooking()">Confirm Booking</button>
+    </form>
+</div>
+
+</body>
+</html>
